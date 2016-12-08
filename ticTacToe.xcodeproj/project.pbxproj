@@ -14,6 +14,7 @@
 		3F80758E1DDF60EA00906D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F80758C1DDF60EA00906D7F /* LaunchScreen.storyboard */; };
 		3F8075991DDF60EB00906D7F /* ticTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8075981DDF60EB00906D7F /* ticTacToeTests.swift */; };
 		3F8075A41DDF60EB00906D7F /* ticTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8075A31DDF60EB00906D7F /* ticTacToeUITests.swift */; };
+		3F8075B21DDF646400906D7F /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8075B11DDF646300906D7F /* GridLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F80759F1DDF60EB00906D7F /* ticTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8075A31DDF60EB00906D7F /* ticTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticTacToeUITests.swift; sourceTree = "<group>"; };
 		3F8075A51DDF60EB00906D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8075B11DDF646300906D7F /* GridLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3F8075831DDF60EA00906D7F /* AppDelegate.swift */,
 				3F8075851DDF60EA00906D7F /* ViewController.swift */,
 				3F8075871DDF60EA00906D7F /* Main.storyboard */,
+				3F8075B11DDF646300906D7F /* GridLabel.swift */,
 				3F80758A1DDF60EA00906D7F /* Assets.xcassets */,
 				3F80758C1DDF60EA00906D7F /* LaunchScreen.storyboard */,
 				3F80758F1DDF60EA00906D7F /* Info.plist */,
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					3F80757F1DDF60EA00906D7F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 					3F8075931DDF60EB00906D7F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 3F80757F1DDF60EA00906D7F;
 					};
 					3F80759E1DDF60EB00906D7F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 3F80757F1DDF60EA00906D7F;
 					};
 				};
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8075B21DDF646400906D7F /* GridLabel.swift in Sources */,
 				3F8075861DDF60EA00906D7F /* ViewController.swift in Sources */,
 				3F8075841DDF60EA00906D7F /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Student-bhs.ticTacToe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Student-bhs.ticTacToe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Student-bhs.ticTacToeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticTacToe.app/ticTacToe";
 			};
 			name = Debug;
@@ -439,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Student-bhs.ticTacToeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticTacToe.app/ticTacToe";
 			};
 			name = Release;
@@ -450,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Student-bhs.ticTacToeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ticTacToe;
 			};
 			name = Debug;
@@ -461,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Student-bhs.ticTacToeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ticTacToe;
 			};
 			name = Release;
@@ -484,6 +497,7 @@
 				3F8075AA1DDF60EB00906D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8075AB1DDF60EB00906D7F /* Build configuration list for PBXNativeTarget "ticTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +506,7 @@
 				3F8075AD1DDF60EB00906D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F8075AE1DDF60EB00906D7F /* Build configuration list for PBXNativeTarget "ticTacToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +515,7 @@
 				3F8075B01DDF60EB00906D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
